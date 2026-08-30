@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Secrets
+.env
+*.pem
+*.key
+
+# Local runtime data
+/data/input/*
+/data/output/*
+/data/working/*
+/data/cache/*
+/logs/*
+
+# Keep placeholder files
+!/data/input/.gitkeep
+!/data/output/.gitkeep
+!/data/working/.gitkeep
+!/data/cache/.gitkeep
+!/logs/.gitkeep
